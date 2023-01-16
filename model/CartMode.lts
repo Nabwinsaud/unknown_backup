@@ -1,0 +1,12 @@
+import mongoose from "mongoose";
+
+interface Product {
+  id: string;
+  price: number;
+  title: string;
+  description: string;
+  imageUrl: string;
+}
+interface ICart {
+  prdoducts: Product[];
+}
